@@ -28,7 +28,7 @@ df_new_model = df_new[(np.abs(stats.zscore(df_new)) < 1.9).all(axis=1)]
 if user_input == 'Visulization':
 
     # Remove unwanted warnings---------------------------------------------------------------------------------
-    st.set_option('deprecation.showPyplotGlobalUse', False)
+   # st.set_option('deprecation.showPyplotGlobalUse', False)
 
     # Showing Dataset------------------------------------------------------------------------------------------
     st.title('CO2 Emissions by Vehicle')
